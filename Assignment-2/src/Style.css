@@ -1,0 +1,78 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#root > div{
+    margin: auto;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.root,
+.buttons{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+.root > div,
+.buttons > div
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+button{
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+    width: 120px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+.join{
+    background-color: skyblue;
+}
+.login{
+    background-color: rgba(255, 166, 0, 0.824);
+}
+.search{
+    background-color: rgb(121, 225, 121);
+}
+.home{
+    background-color: palevioletred;
+}
+.setting{
+    background-color: rgb(167, 183, 192);
+}
+.contact{
+    background-color: rgba(244, 50, 50, 0.873);
+}
+.help{
+    background-color: rgba(128, 0, 128, 0.67);
+}
+.download{
+    background-color: rgba(171, 161, 101, 0.804);
+}
+
+@media (min-width : 768px) {
+    #root > div{
+        margin: auto;
+        margin-top: 10px;
+    }
+    button{
+        border: none;
+        border-radius: 9px;
+        padding: 15px;
+        width: 160px;
+        text-transform: uppercase;
+    }
+}
